@@ -12,7 +12,7 @@ function onClick(e) {
   const color = colors[Math.floor(Math.random() * colors.length)];
   ctx.strokeStyle = color;
   ctx.lineTo(e.offsetX, e.offsetY);
-  ctx.stroke( );
+  ctx.stroke();
 }
 
 canvas.addEventListener("mousemove", onClick);
